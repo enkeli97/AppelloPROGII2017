@@ -1,4 +1,5 @@
-package preappello.aeromobili;
+package com.appello.aeromobili;
+
 import java.util.GregorianCalendar;
 
 public class Elicottero extends Aeromobile {

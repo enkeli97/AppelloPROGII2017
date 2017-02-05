@@ -1,4 +1,4 @@
-package preappello.tool;
+package com.appello.tool;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
-import preappello.aeromobili.Deposito;
+import com.appello.aeromobili.Deposito;
 
 public class FileAeromobile {
 	static public void checkFile (File file, Deposito deposito) throws IOException, ClassNotFoundException{

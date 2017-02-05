@@ -1,13 +1,13 @@
-package preappello.main;
+package com.appello.main;
 import java.io.File;
 import java.io.IOException;
 import java.util.GregorianCalendar;
 
-import preappello.aeromobili.Aeroplano;
-import preappello.aeromobili.Deposito;
-import preappello.aeromobili.Elicottero;
-import preappello.gui.DepositoJFrame;
-import preappello.tool.FileAeromobile;
+import com.appello.aeromobili.Aeroplano;
+import com.appello.aeromobili.Deposito;
+import com.appello.aeromobili.Elicottero;
+import com.appello.gui.DepositoJFrame;
+import com.appello.tool.FileAeromobile;
 
 public class MainClass { 
 	public static void main(String[] args) throws IOException, ClassNotFoundException {
@@ -27,8 +27,8 @@ public class MainClass {
 		deposito.addAeromobile(eli1);
 		deposito.addAeromobile(eli2);
 		
-		//File file = new File (PATHNAME_WINDOWS);
-		File file = new File (PATHNAME_LINUX);
+		File file = new File (PATHNAME_WINDOWS);
+		//File file = new File (PATHNAME_LINUX);
 		
 		FileAeromobile.checkFile(file, deposito);
 		

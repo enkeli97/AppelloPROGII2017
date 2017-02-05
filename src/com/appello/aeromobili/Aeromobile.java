@@ -1,4 +1,5 @@
-package preappello.aeromobili;
+package com.appello.aeromobili;
+
 import java.io.Serializable;
 import java.util.GregorianCalendar;
 

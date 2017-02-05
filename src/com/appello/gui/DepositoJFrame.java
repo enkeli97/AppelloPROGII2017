@@ -1,4 +1,4 @@
-package preappello.gui;
+package com.appello.gui;
 
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
@@ -19,11 +19,11 @@ import javax.swing.JTextArea;
 import javax.swing.border.EtchedBorder;
 import javax.swing.border.TitledBorder;
 
-import preappello.aeromobili.Aeromobile;
-import preappello.aeromobili.Aeroplano;
-import preappello.aeromobili.Deposito;
-import preappello.aeromobili.Elicottero;
-import preappello.tool.FileAeromobile;
+import com.appello.aeromobili.Aeromobile;
+import com.appello.aeromobili.Aeroplano;
+import com.appello.aeromobili.Deposito;
+import com.appello.aeromobili.Elicottero;
+import com.appello.tool.FileAeromobile;
 
 public class DepositoJFrame extends JFrame {
 	public DepositoJFrame(String title, File file) throws FileNotFoundException, ClassNotFoundException, IOException{
